@@ -1,0 +1,41 @@
+.cuisine-content{
+    width: 100%;
+    margin: 0 auto;
+}
+.cuisine-content .main-container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.579) 100%, rgba(253, 249, 249, 0.275) 100%);
+    border-radius: 20px;
+ }
+ .cuisine-content .main-container p{
+    font-size: 1.2rem;
+    margin: 1.2rem 0;
+    color: rgb(0, 0, 0);
+ }
+ .main-container p{
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #000000;
+ }
+ .main-container ul{
+    list-style-type: disc;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    gap: 1rem;
+ }
+ .main-container h3{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #282936;
+ }
+ .main-container ul li{
+    font-size: 1.2rem;
+    color: #282936;
+    line-height: 40px;
+ }
